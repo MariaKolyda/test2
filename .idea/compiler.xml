@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="module1" />
+        <module name="maria" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="module1" target="11" />
+      <module name="multiMavenTest" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

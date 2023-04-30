@@ -1,9 +1,14 @@
 package org.example;
 
+import java.io.File;
+
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.api.errors.InvalidRemoteException;
+import org.eclipse.jgit.api.errors.TransportException;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        public static void main(String[] args) {
+
             // TODO Auto-generated method stub
             System.out.print("maria");
             try {
@@ -22,5 +27,4 @@ public class Main {
                 e.printStackTrace();
             }
         }
-    }
 }
