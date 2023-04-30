@@ -9,6 +9,8 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+
+
     <artifactId>module1</artifactId>
 
     <properties>
